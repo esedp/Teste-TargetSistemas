@@ -17,5 +17,8 @@ public class Main {
         String palavra = sc.nextLine();
 
         System.out.println(LetraA.maiusculaOuMinuscula(palavra));
+
+        System.out.println("\nPergunta 3");
+        System.out.print("o valor da soma e igual a: " + ValorSoma.soma());
     }
 }
