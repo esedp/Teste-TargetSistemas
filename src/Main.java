@@ -10,6 +10,12 @@ public class Main {
         int num = sc.nextInt();
 
         System.out.println(Fibonacci.pertenceFibonacci(num));
+        sc.nextLine();
 
+        System.out.println("\nPergunta 2");
+        System.out.print("Digite uma palavra: ");
+        String palavra = sc.nextLine();
+
+        System.out.println(LetraA.maiusculaOuMinuscula(palavra));
     }
 }
